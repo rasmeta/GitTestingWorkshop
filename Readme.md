@@ -16,15 +16,15 @@ with a method public int Add(string numbers)
   4. Remember to refactor after each passing test
 2. Allow the Add method to handle an unknown amount of numbers
 3. Allow the Add method to handle new lines between numbers (instead of commas).
-  1. the following input is ok: Åg1\n2,3Åh == 6
+  1. the following input is ok: "1\n2,3" == 6
   2. the following is INVALID input so do not expect it : "1,\n" (not need to write a test for it)
 4. Support different delimiters:
-to change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbersÅc]", for example
+to change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers]", for example
 "//;\n1;2" == 3 since the default delimiter is ';'.
 
 __Note__: All existing scenarios and tests should still be supported
 
-5. Calling Add with a negative number will throw an exception Ågnegatives not allowedÅh - and the negative that was passed.
+5. Calling Add with a negative number will throw an exception "negatives not allowed" - and the negative that was passed.
 6. If there are multiple negatives, show all of them in the exception message
 7. Using TDD, Add a method to StringCalculator called public int GetCalledCount() that returns how many times Add() was invoked.
 
