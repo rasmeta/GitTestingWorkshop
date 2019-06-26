@@ -16,11 +16,10 @@ with a method public int Add(string numbers)
   4. Remember to refactor after each passing test
 2. Allow the Add method to handle an unknown amount of numbers
 3. Allow the Add method to handle new lines between numbers (instead of commas).
-  1. the following input is ok: "1\n2,3" == 6
-  2. the following is INVALID input so do not expect it : "1,\n" (not need to write a test for it)
+  1. The following input is ok: "1\n2,3" == 6
+  2. The following is INVALID input so do not expect it : "1,\n" (not need to write a test for it)
 4. Support different delimiters:
-to change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers]", for example
-"//;\n1;2" == 3 since the default delimiter is ';'.
+to change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers]", for example "//;\n1;2" == 3 since the default delimiter is ';'.
 
 __Note__: All existing scenarios and tests should still be supported
 
