@@ -1,4 +1,4 @@
-Borrowed from @royosherove, http://osherove.com/kata
+Borrowed from [@royosherove](https://github.com/royosherove), http://osherove.com/kata
 
 # Before you start:
 * Try not to read ahead .
